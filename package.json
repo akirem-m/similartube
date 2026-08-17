@@ -9,5 +9,8 @@
   "scripts": {
     "dev:api": "npm run dev --workspace=apps/api",
     "dev:extension": "npm run dev --workspace=apps/extension"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.12"
   }
 }
