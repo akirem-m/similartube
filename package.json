@@ -1,16 +1,13 @@
 {
   "name": "similartube",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:extension": "npm run dev --workspace=apps/extension"
+  }
 }
