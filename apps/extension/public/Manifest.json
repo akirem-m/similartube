@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SimilarTube",
+  "version": "1.0.0",
+  "description": "Discover similar YouTube channels using AI.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "SimilarTube"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}
